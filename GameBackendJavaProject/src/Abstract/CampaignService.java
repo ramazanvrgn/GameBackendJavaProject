@@ -4,7 +4,7 @@ import Entities.Campaign;
 
 public interface CampaignService {
 
-	void Add(Campaign campaign);
-	void Update(Campaign campaign);
-	void Delete(Campaign campaign);
+	void add(Campaign campaign);
+	void update(Campaign campaign);
+	void delete(Campaign campaign);
 }

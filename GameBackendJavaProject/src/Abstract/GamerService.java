@@ -6,7 +6,7 @@ import Entities.Gamer;
 
 public interface GamerService {
 
-	void Add(Gamer gamer) throws NumberFormatException, RemoteException;
-	void Update(Gamer gamer);
-	void Delete(Gamer gamer);
+	void add(Gamer gamer) throws NumberFormatException, RemoteException;
+	void update(Gamer gamer);
+	void delete(Gamer gamer);
 }

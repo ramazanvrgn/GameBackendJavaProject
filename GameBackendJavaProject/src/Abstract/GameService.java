@@ -5,9 +5,9 @@ import Entities.Game;
 import Entities.Gamer;
 
 public interface GameService {
-	void Add(Game game);
-	void Sale(Game game, Gamer gamer);
-	void CampaignSale(Game game, Gamer gamer,Campaign campaign);
-	void Update(Game game);
+	void add(Game game);
+	void sale(Game game, Gamer gamer);
+	void campaignSale(Game game, Gamer gamer,Campaign campaign);
+	void update(Game game);
 
 }

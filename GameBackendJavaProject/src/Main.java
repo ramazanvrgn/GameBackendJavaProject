@@ -21,9 +21,9 @@ public class Main {
 		//gamerManager.Add(gamer1);
 		
 		GameService gameManager = new GameManager();
-		gameManager.Add(game1);
-		gameManager.Sale(game1, gamer1);
-		gameManager.CampaignSale(game1, gamer1, campaign1);
+		gameManager.add(game1);
+		gameManager.sale(game1, gamer1);
+		gameManager.campaignSale(game1, gamer1, campaign1);
 		
 		
 		

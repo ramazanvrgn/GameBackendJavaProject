@@ -15,7 +15,7 @@ public class GamerManager implements GamerService{
 	}
 
 	@Override
-	public void Add(Gamer gamer) throws NumberFormatException, RemoteException {
+	public void add(Gamer gamer) throws NumberFormatException, RemoteException {
 		if (gamerCheckService.CheckRealPerson(gamer)) {
 			System.out.println("Kullanýcý eklendi : "+ gamer.getFirstName() + " " + gamer.getLastName());
 		}
@@ -26,13 +26,13 @@ public class GamerManager implements GamerService{
 	}
 
 	@Override
-	public void Update(Gamer gamer) {
+	public void update(Gamer gamer) {
 		System.out.println("Kullanýcý güncellendi : "+ gamer.getFirstName() + " " + gamer.getLastName());
 		
 	}
 
 	@Override
-	public void Delete(Gamer gamer) {
+	public void delete(Gamer gamer) {
 		System.out.println("Kullanýcý silindi : "+ gamer.getFirstName() + " " + gamer.getLastName());
 		
 	}
